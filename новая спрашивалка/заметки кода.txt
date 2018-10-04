@@ -1,0 +1,10 @@
+html {
+  background: linear-gradient(-45deg,#FA8072,#5b3d9f);
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  z-index:-9999;
+  }
+
+-webkit-box-shadow: -23px 17px 74px 0 rgba(14, 7, 51, 0.5), -2px 15px 60px 0 rgba(25, 14, 66, 0.34);
+    box-shadow: -23px 17px 74px 0 rgba(14, 7, 51, 0.5), -2px 15px 60px 0 rgba(25, 14, 66, 0.34);

@@ -1,0 +1,133 @@
+﻿@font-face {
+  font-family: Edelsans;
+  src: url(photo-1531279550271-23c2a77a765c.jpg);
+}
+body { 
+  margin: 0;
+  font-family: Edelsans, Avenir, sans-serif;
+}
+section { 
+  height: 100vh; 
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  flex-direction: column;
+  padding: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 4vw; 
+}
+h1{
+ 
+  color: #6039a1;
+    letter-spacing: .1em;
+  text-shadow: 2px 2px black, 4px 4px white, 6px 6px black, 8px 8px white, 10px 10px black, 12px 12px white, 14px 14px black ;}}
+section:first-of-type { 
+  text-transform: uppercase;
+  font-size: 7vw;
+}
+section:first-of-type, section:nth-of-type(3) { 
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4); 
+}
+section:nth-of-type(even) { 
+  background: #6039a1;
+}
+section:nth-of-type(1) { 
+  background-image: url(some-moody-wallpapers-6-1366×768.jpg); 
+}
+section:nth-of-type(2) { 
+  background-image: url(wave-min.2bfe0bf.png); 
+}
+section:nth-of-type(3) { 
+  background-image: url(some-moody-wallpapers-8-1366×768.jpg); 
+}
+section:nth-of-type(4) { 
+  background-image: url(figure-2.c3c9f0b.svg); 
+}
+section:nth-of-type(5) { 
+  background-image: url(some-moody-wallpapers-13-1366×768.jpg); 
+}
+section:nth-of-type(6) { 
+  background-image: url(wave-min.2bfe0bf.png); 
+}
+
+section:nth-of-type(7) { 
+  background-image: url(some-moody-wallpapers-1366×768.jpg); 
+}
+section:nth-of-type(9) { 
+  background-image: url(some-moody-wallpapers-19-1366×768.jpg); 
+}
+.line {
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  width: 54px;
+  height: 1px;
+  background: #6039a1;
+}
+.line:before {
+  content: "";
+  position: absolute;
+  width: 38px;
+  margin: 0 auto;
+  top: -3px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #6039a1;
+}
+.line:after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  margin: 0 auto;
+  top: 3px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #6039a1;
+}
+
+.line1 {
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  width: 54px;
+  height: 2px;
+  background: #6039a1;
+}
+.line1:before {
+  content: "";
+  position: absolute;
+  width: 68px;
+  margin: 0 auto;
+  top: -3px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #6039a1;
+}
+.line1:after {
+  content: "";
+  position: absolute;
+  width: 42px;
+  margin: 0 auto;
+  top: 3px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #6039a1;
+}
+dody {
+    min-height: 100vh;
+    min-width: 320px;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 14px;
+    color: #e0e0e0;
+    background: #212121 url(/site-user-static/img/wave-min.2bfe0bf.png) 0 -220px repeat;
+    overflow: hidden;
+}
